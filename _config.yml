@@ -1,29 +1,41 @@
-name: "McIntosh's"
-favicon: null
-layout_spectrum: 1
-typography_spectrum: 0.19344
 title: "The McIntosh's"
+purpose: []
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+color:
+  saturation: 0.8613170082680881
+  brandStrength: 0.331536547280848
+  lightness: 0.6309380314778537
+  brandColors:
+    - '#FFFFFF'
+    - '#978A78'
+    - '#4192FB'
+    - '#56575B'
+    - '#CEB795'
+  rhythmicContrast: 0.6445536040700972
 cta:
-  domain: null
   bucket: null
   version: null
+  domain: null
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
+name: "McIntosh's"
+favicon: null
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#ADD7F6'
-    - '#87BFFF'
-    - '#3F8EFC'
-    - '#2667FF'
-    - '#3B28CC'
-  brandStrength: 0.331536547280848
-  lightness: 0.6309380314778537
-  saturation: 0.8613170082680881
-  rhythmicContrast: 0.6445536040700972
-purpose: []
+typography_spectrum: 0.19344
+layout_spectrum: 1
